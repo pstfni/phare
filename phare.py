@@ -95,6 +95,7 @@ def generate_html(posts: List[Dict], output_file: str = "watchlist.html"):
 <head>
     <meta charset="utf-8">
     <title>Phare: Veille personnelle</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📑</text></svg>">
     <style>
         body { font-family: system-ui, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; }
         h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
